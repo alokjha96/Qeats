@@ -7,10 +7,11 @@
 *QEats is a popular food ordering app that allows users to browse and order their favorite dishes from nearby restaurants.*
  During the course of this project
  1) I had build different parts of the QEats backend which is a Spring Boot application.
- 2) Several REST API endpoints were implemented to query restaurant information and place food orders. 
+ 2) Several REST API endpoints were implemented to query restaurant information and place food orders.
+ 3) To give a sense of real-world problems, production issues were investigated using Scientific Debugging methods.
+ 4)  Along with this, I improved the app performance under large load scenarios as well as included an advanced search feature in the app.
  
 ---
-
 ## Perform search operations using custom attributes
 
 ### Scope of Work
@@ -41,6 +42,36 @@ MongoDB querying, Multithreading
 Spring Boot, Spring Data, REST API, Jackson, Mockito, JUnit, MongoDB
 
 <img src = "https://github.com/alokjha96/Qeats/blob/main/qeats5.PNG">
+
+
+
+## Replicate performance issues and solve them using caching strategies
+
+###  Scope of Work
+
+- Employed JMeter or load testing to expose performance issues.
+- Identified DB queries contributing to degradation in performance.
+- Used a Redis cache to alleviate read performance.
+
+
+### Skills used
+
+Redis, JMeter
+
+
+## Resolve production issues using Scientific Debugging
+
+###  Scope of Work
+
+- Debug QEats app crashes from backend leveraging log messages and structured debugging techniques.
+- Use IDE features (breakpoints) and assert statements to identify the root cause.
+
+
+### Skills used
+
+
+Scientific Debugging
+
 
 
 
