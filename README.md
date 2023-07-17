@@ -4,64 +4,43 @@
 
 ## Overview
 
-*QMoney is a financial service company that offers world-class solutions in Portfolio Management, Investment Advisory, and Wealth Management. Founded in 2010 and headquartered in Bangalore, the company has gained the trust of 1 million+ clients to manage their finances and investment needs. In recent years, the company has grown to become one of the pioneers of online trading by building the first-of-its-kind platform to make trading efficient and effortless for its customers.*
-
-**Skills Used -** Java, REST API, Jackson, Interfaces, Code Refactoring, Gradle, Exception Handling, Multithreading.
-
+*QEats is a popular food ordering app that allows users to browse and order their favorite dishes from nearby restaurants.*
+ During the course of this project
+ 1) I had build different parts of the QEats backend which is a Spring Boot application.
+ 2) Several REST API endpoints were implemented to query restaurant information and place food orders. 
+ 
 ---
-**QMoney is a visual stock portfolio analyzer. It helps portfolio managers make trade recommendations for their clients.**
--   Implemented the core logic of the portfolio manager and published it as a library.    
--   Refactored code to add support for multiple stock quote services.    
--   Improved application stability and performance.    
----
-![QMoney Architecture](https://github.com/axitchandora/Personal-Stuff/blob/main/Images/ME_QMONEY_V2_MODULE_ME_QMONEY_V2_MODULE_JSON_PARSING_1633318898_image_1.png)
 
-<p align="center"> <b>QMoney Architecture</b> </p>
-
-![QMoney Portfolio Manager Interface](https://github.com/axitchandora/Personal-Stuff/blob/main/Images/ME_ME_QMONEY_MODULE_PROJECT_REPORT_image_1.png)
-<p align="center"> <b>QMoney Portfolio Manager Interface</b> </p>
-
-## Fetch stock quotes and compute annualized stock returns
+## Perform search operations using custom attributes
 
 ### Scope of Work
 
--   Used Tiingo’s REST APIs to fetch stock quotes.
--   Computed the annualized returns based on stock purchase date and holding period.
+- Used MongoDB queries to enable users to search for restaurants using attributes like name, cuisine, dish, and price.
+- Used multithreading to increase the number of concurrent searches that can be performed.
 
 ### Skills used
 
-Java, REST API, Jackson
+MongoDB querying, Multithreading
 
-## Refactor using Java interfaces and publish a JAR file
+<img src = "https://github.com/alokjha96/Qeats/blob/main/qeats2.PNG">
+<img src="https://github.com/alokjha96/Qeats/blob/main/qeats3.PNG">
+<img src="https://github.com/alokjha96/Qeats/blob/main/qeats4.PNG">
+
+
+## Retrieve restaurant data for a given user location
 
 ### Scope of Work
 
--   Refactored code to adapt to an updated interface contract published by the backend team.
--   Published the portfolio manager library as a JAR for easy versioning and distribution.
--   Created examples to help document library (JAR) usage.
+- Implemented GET /API/v1/restaurants and the corresponding request handler and response methods.
+- Used Mockito to enable the development of the relevant MVCS layers independently.
+- Retrieved a list of restaurants from MongoDB based on a user location.
+
 
 ### Skills used
 
-Interfaces, Code Refactoring, Gradle
+Spring Boot, Spring Data, REST API, Jackson, Mockito, JUnit, MongoDB
 
-## Improve application availability and stability
+<img src = "https://github.com/alokjha96/Qeats/blob/main/qeats5.PNG">
 
-### Scope of Work
 
--   Added support for a backup stock quote service (Alpha Vantage) to improve service availability.
--   Improved application stability with comprehensive error reporting and better exception handling.
 
-### Skills used
-
-Interfaces, Exception Handling
-
-## Enhance application performance
-
-### Scope of Work
-
--   Improved application responsiveness by introducing multithreading.
--   Wrote unit tests to measure performance improvements.
-
-### Skills used
-
-Multithreading
