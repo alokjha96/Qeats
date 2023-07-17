@@ -1,6 +1,6 @@
 # Qeats - [A Java with SpringBoot based food ordering app]
 <p align="center"> 
-<img width="300" height="200" src="https://github.com/alokjha96/Qeats/blob/main/qeats%20%201.PNG">
+<img width="800" height="500" src="https://github.com/alokjha96/Qeats/blob/main/qeats%20%201.PNG">
 
 ## Overview
 
